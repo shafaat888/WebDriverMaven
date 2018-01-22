@@ -26,6 +26,7 @@ public class LoginTest {
 		driver.findElement(By.id("identifierNext")).click();
 		Thread.sleep(4000);
 		driver.findElement(By.id("password")).sendKeys("shafi_FORu65");
+		driver.findElement(By.id("passwordNext")).click();
 	
 	}
 	@AfterTest
